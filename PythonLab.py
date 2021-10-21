@@ -1,8 +1,6 @@
-myFood = ["pizza","falafel","carrot"]
-friendFood = myFood[0:2]
+cars = ["audi","bmw","subaru","toyota"]
 
-myFood.append("hamburger")
-friendFood.append("cheese")
-
-print(myFood)
-print(friendFood)
+if ("honda" not in cars):
+    print("yes")
+else:
+    print("no")
