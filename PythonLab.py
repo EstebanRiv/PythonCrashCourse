@@ -1,6 +1,11 @@
-cars = ["audi","bmw","subaru","toyota"]
+alien0 = {"color": "green",
+          "points": 5, 
+          "planet": "mars"}
 
-if ("honda" not in cars):
-    print("yes")
-else:
-    print("no")
+alien0["key"] = "value"
+
+print(alien0)
+
+del alien0["key"]
+
+print(alien0)
