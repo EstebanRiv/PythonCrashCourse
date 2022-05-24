@@ -1,11 +1,17 @@
-alien0 = {"color": "green",
-          "points": 5, 
-          "planet": "mars"}
+# Local variables
+totalNumber = 0
+count = 0
 
-alien0["key"] = "value"
+while True:
+    number = input("Enter a number: ")
+    if number == "done":
+        break
+    elif (number.isnumeric() == False):
+     print("Invalid input")
+    else:
+        totalNumber += int(number)
+        count += 1
 
-print(alien0)
-
-del alien0["key"]
-
-print(alien0)
+print("Total = ", totalNumber)
+print("Count = ", count)
+print("Average = ", totalNumber/count)
